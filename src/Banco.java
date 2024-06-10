@@ -21,4 +21,10 @@ public class Banco {
 		this.contas = contas;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return contas.toString();
+	}
+
 }
